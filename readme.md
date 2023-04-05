@@ -4,4 +4,4 @@ This website follows the linktree concept, I share this website freely(but don't
 
 ## Preview website
 
-![Preview](images/Screenshoot/Screenshoot-06-Apr-2023.png)
+![Preview](Images/Screenshoot/Screenshoot-06-Apr-2023.png)
