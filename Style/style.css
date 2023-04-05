@@ -1,0 +1,178 @@
+/*======================================================================*/
+/* Autor        : Hate-Cha                                              */
+/* Create Date  : Nov 9 2022                                            */
+/* Create Date  : Apr 4 2023                                            */
+/* Description  : Use palette color dracula (https://draculatheme.com/) */
+/*======================================================================*/
+
+/* Root Style */
+html{
+    height: 100%;
+    color:#bd93f9;
+    background-color:#44475a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    margin:0px;
+    padding: 0px;
+}
+
+::selection{
+    background-color: #bd93f9;
+    color: #44475a;
+}
+.container{
+    padding: 55px;
+    margin: 10px;
+}
+
+br{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Imagers and Line Top */
+img.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    border-style: outset;
+    border-color: #bd93f9;
+}
+
+hr.hr-title{
+    border: none;
+    color: #BD93F9;
+    background-color: #BD93F9;
+    height: 7px;
+    border-radius:100px;
+    align:center;
+    margin-top:15px;
+    width: 5%;
+}
+
+/* Card Style and Type */
+div.card{
+    margin: 0;
+    padding: 45px;
+    background-color:#282A36;
+    border-color:#BD93F9;
+    border-radius:15px;
+    border-style: solid;
+    border-width: medium;
+    transition: 0.3s;
+}
+
+h1 {
+    color: #bd93f9;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    color: #bd93f9;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-card{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Consolas";
+}
+
+p {
+    color: #bd93f9;
+    font-weight:normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.desc-card{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: start;
+}
+
+/* Button Style */
+button.button-style{
+    margin-top:15px;
+    font-size:20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #bd93f9;
+    background-color:#44475A;
+    border-color:#BD93F9;
+    border-radius:7px;
+    border-style: solid;
+    border-width: medium;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+summary{
+    margin-top:15px;
+    font-size:20px;
+    display: block;
+    border: none;
+    color: #bd93f9;
+    background-color:#44475A;
+    border-color:#BD93F9;
+    border-radius:7px;
+    border-style: solid;
+    border-width: medium;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+details[open] summary{
+    margin-top:15px;
+    font-size:20px;
+    display: block;
+    border: none;
+    color: #44475A;
+    background-color:#BD93F9;
+    border-color:#44475A;
+    border-radius:7px;
+    border-style: solid;
+    border-width: medium;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Link a Style */
+a{
+    color: #BD93F9;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #282a36;
+}
+
+/* Footer */
+footer{
+    padding: 25px;
+    margin: -8px;
+    background-color: #282a36;
+    border-color:#BD93F9;
+    border-top: 3px solid ;
+}
+
+.copyright-text{
+    color: #BD93F9;
+    margin:0px;
+    padding:0px;
+    font-size:12px;
+    text-align: center;
+}
